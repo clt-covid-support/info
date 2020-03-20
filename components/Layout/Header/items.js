@@ -10,6 +10,11 @@ export default [
     label: 'News',
   },
   {
+    id: 'data',
+    href: '/data',
+    label: 'Data',
+  },
+  {
     id: 'food',
     href: '/food',
     label: 'Food',

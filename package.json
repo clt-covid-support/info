@@ -19,6 +19,14 @@
     "*": "prettier-standard --changed --lint --format"
   },
   "dependencies": {
+    "@apollo/react-hooks": "3.1.3",
+    "@apollo/react-ssr": "3.1.3",
+    "apollo-cache-inmemory": "1.6.5",
+    "apollo-client": "2.6.8",
+    "apollo-link-http": "1.5.16",
+    "graphql": "^14.6.0",
+    "graphql-tag": "2.10.3",
+    "isomorphic-unfetch": "^3.0.0",
     "babel-plugin-styled-components": "^1.10.7",
     "grommet": "^2.11.2",
     "grommet-controls": "^2.0.4",
@@ -35,6 +43,7 @@
     "husky": "4.2.3",
     "lint-staged": "^10.0.8",
     "modern-node": "^2.7.0",
-    "prettier-standard": "^16.2.1"
+    "prettier-standard": "^16.2.1",
+    "babel-plugin-graphql-tag": "^2.5.0"
   }
 }

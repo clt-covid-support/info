@@ -28,6 +28,7 @@ const CollapsableNav = ({ on, toggleCallback }) => (
           <Nav direction="row">
             <Anchor href="/" label="home" />
             <Anchor href="/news" label="news" />
+            <Anchor href="/data" label="data" />
             <Anchor href="/food" label="food" />
             <Anchor href="/emergency" label="emergency" />
           </Nav>

@@ -19,15 +19,22 @@
     "*": "prettier-standard --changed --lint --format"
   },
   "dependencies": {
-    "next": "9.2.2",
-    "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "babel-plugin-styled-components": "^1.10.7",
+    "grommet": "^2.11.2",
+    "grommet-controls": "^2.0.4",
+    "grommet-icons": "^4.4.0",
+    "next": "9.3.1",
+    "next-transpile-modules": "^3.1.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
+    "babel-plugin-transform-imports": "^2.0.0",
+    "eslint": "6.8.0",
+    "husky": "4.2.3",
     "lint-staged": "^10.0.8",
     "modern-node": "^2.7.0",
-    "prettier-standard": "^16.2.1",
-    "eslint": "6.8.0",
-    "husky": "4.0.0"
+    "prettier-standard": "^16.2.1"
   }
 }

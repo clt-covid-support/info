@@ -10,18 +10,18 @@ export default () => (
       <Paragraph>
         github 👉{' '}
         <Anchor href="https://github.com/clt-covid-support/info">
-          help hack covid out of clt!
+          help hack covid!
         </Anchor>
       </Paragraph>
-      <Section>
-          <Form />
-      </Section>
       <Paragraph>
         slack 👉{' '}
         <Anchor href="https://join.slack.com/t/charlottec-19/shared_invite/zt-crty0jqq-NUomRzdpuWo8CpRzDSsMag">
           join on slack!
         </Anchor>
       </Paragraph>
+      <Section>
+          <Form />
+      </Section>
     </Box>
   </Page>
 );

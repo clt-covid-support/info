@@ -25,7 +25,6 @@ const Form = () => {
 
           <Box direction="row" justify="between" margin={{ top: 'medium' }}>
             <Button label="Cancel" />
-            <Button type="reset" label="Reset" />
             <Button type="submit" label="Submit" primary />
           </Box>
         </GrommetForm>

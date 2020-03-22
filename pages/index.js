@@ -1,5 +1,6 @@
-import { Anchor, Box, Heading, Paragraph, Clock } from 'grommet';
+import { Anchor, Box, Heading, Paragraph } from 'grommet';
 import Page from '../components/Page';
+import Form from '../components/Form';
 import Section from '../components/Layout/Section'
 
 export default () => (
@@ -13,7 +14,7 @@ export default () => (
         </Anchor>
       </Paragraph>
       <Section>
-          <Clock type="digital" />
+          <Form />
       </Section>
       <Paragraph>
         slack 👉{' '}

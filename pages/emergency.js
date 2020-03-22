@@ -4,7 +4,8 @@ import Page from '../components/Page';
 export default () => (
   <Page pageTitle="home">
     <Box align="center" margin="large">
-      <Heading>911</Heading>
+      <Heading>Emergency Contact List</Heading>
+      <Heading level={2}>⚠️Work in Progress⚠️</Heading>
       <Paragraph>
         github 👉{' '}
         <Anchor href="https://github.com/clt-covid-support/info">

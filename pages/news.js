@@ -5,6 +5,7 @@ export default () => (
   <Page pageTitle="home">
     <Box align="center" margin="large">
       <Heading>NEWS</Heading>
+      <Heading level={2}>⚠️Work in Progress⚠️</Heading>
       <Paragraph>
         github 👉{' '}
         <Anchor href="https://github.com/clt-covid-support/info">

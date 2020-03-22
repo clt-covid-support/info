@@ -16,7 +16,7 @@ const CollapsableNav = ({ on, toggleCallback }) => (
       <Button
         primary
         color={on ? 'accent-3' : ''}
-        label={on ? 'Light' : 'Dark'}
+        label={!on ? 'Light' : 'Dark'}
         onClick={toggleCallback}
       />
     </Box>

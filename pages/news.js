@@ -1,9 +1,7 @@
 import { Anchor, Box, Heading, Paragraph } from 'grommet';
 import Page from '../components/Page';
-import useRssFeed from '../components/hooks/useRssFeed'
 
 export default () => {
-    useRssFeed()
 return (
     <Page pageTitle="home">
       <Box align="center" margin="large">

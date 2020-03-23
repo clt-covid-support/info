@@ -24,18 +24,20 @@
     "apollo-cache-inmemory": "1.6.5",
     "apollo-client": "2.6.8",
     "apollo-link-http": "1.5.16",
+    "babel-plugin-styled-components": "^1.10.7",
     "graphql": "^14.6.0",
     "graphql-tag": "2.10.3",
-    "isomorphic-unfetch": "^3.0.0",
-    "babel-plugin-styled-components": "^1.10.7",
     "grommet": "^2.11.2",
     "grommet-controls": "^2.0.4",
     "grommet-icons": "^4.4.0",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "9.3.1",
+    "next-compose-plugins": "^2.2.0",
     "next-transpile-modules": "^3.1.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "swr": "^0.1.18"
   },
   "devDependencies": {
     "babel-plugin-transform-imports": "^2.0.0",

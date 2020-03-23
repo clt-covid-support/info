@@ -26,5 +26,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment Variables
+next.env.js
 .env
 .env.build

@@ -1,6 +1,5 @@
 const withPlugins = require('next-compose-plugins');
 const withTM = require('next-transpile-modules')(['grommet-controls']); // pass the modules you would like to see transpiled
-const env = require('./next.env');
 
 module.exports = withPlugins([withTM], {
   env: {

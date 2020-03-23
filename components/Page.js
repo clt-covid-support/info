@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { Grommet, extendDefaultTheme } from 'grommet';
+import { Grommet } from 'grommet';
 
 import Header from './Layout/Header';
 import Footer from './Layout/Footer';

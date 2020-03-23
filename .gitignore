@@ -29,3 +29,5 @@ yarn-error.log*
 next.env.js
 .env
 .env.build
+
+.now

@@ -8,6 +8,7 @@ module.exports = withPlugins([withTM], {
     GITHUB_URL: '',
     INSTAGRAM_URL: '',
     STATIC_FORMS_ACCESS_KEY: '@static-forms-access-key', // get your access key from https://www.staticforms.xyz
-    STATIC_FORMS_EMAIL: '@static-forms-email' // this will set replyTo of email to email address entered in the form
+    STATIC_FORMS_EMAIL: '@static-forms-email', // this will set replyTo of email to email address entered in the form
+    COVID_DATA_URL: '@covid-data-url' 
 }
 });
